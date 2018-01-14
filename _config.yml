@@ -42,3 +42,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Cayman Setings
+show_downloads: true
+google_analytics: UA-6905078-5
