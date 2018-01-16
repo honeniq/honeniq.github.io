@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   私（@honeniq）の個人ブログです。日々の生活の中で感じた諸々のことから、<br>
   人さまにお見せできるような上澄み部分を抽出して投稿しています。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://uwazumi.honeniq.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://uwazumi.honeniq.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: honeniq
 github_username:  honeniq
 
