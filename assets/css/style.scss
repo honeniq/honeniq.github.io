@@ -26,4 +26,85 @@
     text-decoration: none;
   }
 }
+  
+.main-content {
+  display: flex;
+  @include large {
+    max-width: 80rem;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    flex-direction: row;
+  }
 
+  @include medium {
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    flex-direction: row;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+}
+
+.entry {
+  flex: 1;
+
+  @include large {
+    min-width: 48rem;
+    max-width: 64rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    min-width: 32rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+.sidebar {
+  @include large {
+    max-witdh: 16rem;
+    font-size: 0.8rem;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+
+  @include medium {
+    max-witdh: 10rem;
+    font-size: 0.7rem;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+
+  @include small {
+    font-size: 0.8rem;
+    border-top: solid 1px $hr-border-color;
+    padding: 2rem 0rem;
+  }
+}
+
+.sidebar-parts {
+  padding: 2rem 0rem;
+  border-bottom: solid 1px $hr-border-color;
+}
+
+.site-footer {
+  @include large {
+    padding: 2rem 2rem;
+  }
+
+  @include medium {
+    padding: 1rem 1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
