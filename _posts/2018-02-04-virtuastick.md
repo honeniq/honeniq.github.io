@@ -4,6 +4,7 @@ layout: post
 title: Pro MicroでバーチャスティックをUSB化してみた
 tags:
   - Gadget
+  - 電子工作
 ---
 
 ## きっかけ
@@ -80,7 +81,6 @@ void loop() {
 
   delay(10);
 }
-
 ```
 
 方向ボタンと普通のボタンは内部的に別々の扱いになっています。方向は``Joystick.setYAxis``と``Joystick.setXAxis``で出力して、ボタンは``Joystick.setButton``を使う模様。
@@ -179,13 +179,13 @@ Digital-Inの``18``から``21``はD-pad(方向ボタン)用です。時計回り
 
 あとはPro Microの各ピンの入力をレバー・ボタンと繋げていくだけです。
 
-![soldering1]({{site.baseurl}}/_posts/2018-02-04-soldering1.jpg)
+![soldering1]({{site.baseurl}}/assets/2018-02-04-soldering1.jpg)
 
 バーチャスティックの内部基盤が結構しっかりついていたので、そのまま流用しました。基盤の端にボタンからの配線が延びているので、ここにビニール線を付けてPro Microと繋ぎます。
 
 レバーはケースの中に小さなボタンが4つ入っていて、上下左右に動かすと対応したボタンが押される構造になっています。これも基盤の端に出力用のコネクタがあったので、そのまま流用してビニール線で延長しました。
 
-![soldering2]({{site.baseurl}}/_posts/2018-02-04-soldering2.jpg)
+![soldering2]({{site.baseurl}}/assets/2018-02-04-soldering2.jpg)
 
 ユニバーサル基板にPro Microと各ボタンからのビニール線を付けて、ハンダブリッジで強引に繋いでハンダ付け完了。
 
