@@ -45,7 +45,7 @@ Pro MicroはArduinoのファミリーに入っている製品ではないので�
 
 ライブラリの[サンプルコード](https://github.com/MHeironimus/ArduinoJoystickLibrary/blob/master/Joystick/examples/GamepadExample/GamepadExample.ino)に、方向ボタン+1ボタンのみですが目的に近いものがあったので、まずこれを使いました。
 
-```C++
+```cpp
   (略)
 void loop() {
 
@@ -108,9 +108,11 @@ void loop() {
 
 #### コード
 
+[honeniq/promicro-gamepad](https://github.com/honeniq/promicro-gamepad)
+
 方向ボタンと普通のボタンの関数を分けて、それぞれ内部でループ処理。
 
-```C++
+```cpp
   (略)
 void loop() {
   updateDpad();
