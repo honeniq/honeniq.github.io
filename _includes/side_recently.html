@@ -1,0 +1,9 @@
+        <div class="sidebar-parts">
+          <h2>最近の記事</h2>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </div>
+
