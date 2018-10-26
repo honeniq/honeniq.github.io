@@ -11,7 +11,9 @@ tags:
 
 ## やったこと
 
-RubotyでChatworkを使うためのアダプタを作りました。[honeniq/ruboty-chatwork_webhook](https://github.com/honeniq/ruboty-chatwork_webhook)
+RubotyでChatworkを使うためのアダプタを作りました。
+
+[honeniq/ruboty-chatwork_webhook](https://github.com/honeniq/ruboty-chatwork_webhook)
 
 実は[mhag/ruboty-chatwork](https://github.com/mhag/ruboty-chatwork)というアダプタが既にあるのですが、こちらはREST APIを使ってチャットルームを監視するので、リクエスト回数制限が常につきまといます。
 
